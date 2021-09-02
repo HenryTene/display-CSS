@@ -1,0 +1,25 @@
+.cuadrado{
+
+width: 200px;
+height: 200px;
+background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+margin-bottom: 20px;
+
+/*la linea de abajo es para poner los cuadrados en display-block quiere decir en horizontal*/
+/*display: inline-block;*/
+ /**/
+ border-radius: 25px;
+ }
+
+ p{
+     /*Para que los parrafos se vean en line (osea de forma horizontal)*/
+     display: inline-block;
+ }
+
+ a{
+    /* para que los enlaces(anchor) se vean en vertical*/
+     display: block;
+ }
